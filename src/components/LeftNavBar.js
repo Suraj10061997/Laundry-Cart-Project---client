@@ -5,10 +5,10 @@ const LeftNavBar = () => {
   return (
     <>
       <nav id="leftNav">
-        <img className="navIcon" src="/images/home-run.svg" alt="home-run-image" />
-        <img className="navIcon" src="/images/more.svg" alt="more-image"/>
+        <img className="navIcon" src="/images/home-run.svg" alt="home-run" />
+        <img className="navIcon" src="/images/more.svg" alt="more"/>
         <div id="listIconCover">
-          <img className="navIcon" id="listIcon" src="/images/list.svg" alt="list_image"/>
+          <img className="navIcon" id="listIcon" src="/images/list.svg" alt="list"/>
         </div>
       </nav>
     </>
