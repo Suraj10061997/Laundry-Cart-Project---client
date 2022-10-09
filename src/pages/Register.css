@@ -1,0 +1,161 @@
+.main-section-3 {
+    display: flex;
+    opacity: 1;
+}
+.section-div-3 {
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12.6rem;
+    padding-bottom: 3rem;
+    opacity: 1;
+}
+.laundry-text-3 {
+    text-align: left;
+    font: normal normal Avenir;
+    letter-spacing: 0px;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+}
+.door-step-text-3 {
+    text-align: left;
+    font: normal normal normal Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 1.5rem;
+    margin-bottom: 6rem;
+}
+.already-account-text {
+    text-align: left;
+    font: normal normal normal Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 0.9rem;
+}
+.sign-in-btn-3 {
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #4552C1;
+    opacity: 1;
+    margin-left: -0.05rem;
+    padding: 0.4rem 1.4rem;
+}
+.section-div-4 {
+    width: 72vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-bottom: 2rem;
+}
+.register-text-div {
+    font: normal normal medium 32px/60px Avenir;
+    letter-spacing: 1.28px;
+    color: #5861AE;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding: 0rem 5rem;
+}
+.form-parent-container {
+    padding: 0rem 5rem;
+    box-sizing: border-box;
+    border-left: 2px solid #4552C1
+}
+.form-parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.form-child-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 1rem;
+}
+.form-child-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+.register-input-field {
+    border: none;
+    border-bottom: 2px solid #989898;
+    width: 24rem;
+    opacity: 1;
+    background-color: #F8F9FF;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    font: normal normal normal 17px/27px Open Sans;
+    letter-spacing: 0.6px;
+    color: #424548;
+}
+.terms-condition-div {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font: normal normal normal 14px/20px Open Sans;
+    letter-spacing: 0.49px;
+    color: #5861AE;
+    opacity: 1;
+}
+.register-div {
+    display: flex;
+    justify-content: center;
+}
+.register-div-button {
+    background: #5861AE 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 0.5rem 1.8rem;
+}
+.padlock-img2 {
+    transform: translate(-100%, 6%);
+}
+.lock-input-container2 {
+    display: flex;
+    justify-content: center;
+}
+.backend-msg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 0 8rem;
+}
+.error-correction-page-2-div {
+    width: 24rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+    font: italic normal normal 12px/27px Open Sans;
+    letter-spacing: 0.42px;
+    color: #EF1A1A;
+    font-size: 0.8rem;
+    margin-top: -3rem;
+}
+input.register-checkbox {
+    margin-right: 1rem;
+    height: 1rem;
+    width: 1rem;
+}

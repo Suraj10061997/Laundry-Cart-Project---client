@@ -1,0 +1,131 @@
+
+.main-section-1 {
+    display: flex;
+    opacity: 1;
+}
+.section-div-1 {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 0;
+}
+.laundry-text-1 {
+    text-align: left;
+    font: normal normal Avenir;
+    letter-spacing: 0px;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 3rem;
+    margin-bottom: 0.7rem;
+}
+.door-step-text-1 {
+    text-align: left;
+    font: normal normal normal Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 1.5rem;
+    margin-bottom: 4.5rem;
+}
+.do-not-account-text {
+    text-align: left;
+    font: normal normal normal Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+.register-btn-1 {
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #4552C1;
+    opacity: 1;
+    margin-left: -0.05rem;
+    padding: 0.4rem 1.4rem;
+}
+.section-div-2 {
+    width: 50vw;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 7rem 0;
+}
+.sign-heading-text-2-div {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem 8rem;
+}
+.sign-heading-text-2 {
+    font: normal normal medium 32px/60px Avenir;
+    letter-spacing: 1.28px;
+    color: #4552C1;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 2.5rem;
+}
+.form-div-2 {
+    box-sizing: border-box;
+    padding: 0 8rem;
+    border-left: 2px solid #4552C1
+}
+input.box-input-field-2 {
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 24rem;
+    background-color: #F8F9FF;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+.form-div-2-flex {
+    display: flex;
+    flex-direction: column;
+}
+.mini-mobile-email-text,
+.mini-password-text {
+    font: normal normal normal 12px/15px Open Sans;
+    letter-spacing: 0.42px;
+    color: #5861AE;
+    opacity: 1;
+}
+.padlock-img {
+    transform: translate(-110%, 60%);
+}
+.lock-input-container {
+    display: flex;
+    align-items: center;
+}
+.forget-password-text-1 {
+    font: normal normal medium 16px/26px Avenir;
+    letter-spacing: 0.64px;
+    color: #4552C1;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 1rem;
+    width: 24rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2.5rem;
+}
+.sign-in-div {
+    display: flex;
+    justify-content: center;
+}
+.sign-in-btn-1 {
+    background: #5861AE 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 0.5rem 1.8rem;
+}
