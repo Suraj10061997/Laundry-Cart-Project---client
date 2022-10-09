@@ -8,7 +8,7 @@ const LeftNavBar = () => {
         <img className="navIcon" src="/images/home-run.svg" />
         <img className="navIcon" src="/images/more.svg" />
         <div id="listIconCover">
-          <img className="navIcon" id="listIcon" src="/images/list.svg" />
+          <img className="navIcon" id="listIcon" src="/images/list.svg" alt="list_image"/>
         </div>
       </nav>
     </>
