@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect} from 'react';
 import "./Login.css";
 import {toast} from "react-toastify";
 import {useDispatch} from "react-redux";
@@ -8,10 +8,14 @@ import { useNavigate } from 'react-router-dom';
 function Login() {
     const navigate = useNavigate();
     const dispatch = useDispatch();
-    dispatch(handleAuthPage(true))
+    
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
+    useEffect(()=>{
+        dispatch(handleAuthPage(true));
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[])
     const handleSubmit = (e) =>{
         console.log("sdf")
         e.preventDefault();
@@ -104,7 +108,7 @@ const TogglePassword = ({ password, setPassword }) => {
                     />
                 </div>
                 <span className="padlock-img" onClick={ToggleHandler}>
-                    {toggle === false ? <i class="fa-solid fa-lock"></i> : <i class="fa-solid fa-lock-open"></i>}
+                    {toggle === false ? <i className="fa-solid fa-lock"></i> : <i className="fa-solid fa-lock-open"></i>}
                 </span>
             </div>
             <div className='forget-password-text-1'><div>Forget Password?</div></div>

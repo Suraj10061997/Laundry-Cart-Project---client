@@ -102,7 +102,7 @@ const FeaturesPart = () => {
         }
     }
     return (
-        <div class="main-container-2">
+        <div className="main-container-2">
             <div>
                 {orders.length ? (
                     <button className="create-btn--2" onClick={handleCreateOrderBtn}>

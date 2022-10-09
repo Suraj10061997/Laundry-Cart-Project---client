@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// const url = https://laundrycartnew.herokuapp.com/
+// https://laundrycartnew.herokuapp.com/
 const API = axios.create({baseURL:"https://laundrycartnew.herokuapp.com"});
 
 

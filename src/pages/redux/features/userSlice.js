@@ -20,7 +20,6 @@ export const userRegister = createAsyncThunk("auth/userRegister",async({formValu
 export const userLogin = createAsyncThunk("auth/userLogin",async({formValue,navigate,toast},{rejectWithValue})=>{
     try{
         const response = await api.userLogin(formValue);
-        console.log("response",response.data.message);
         if(response.data.message){
             return toast.error(response.data.message);
         }

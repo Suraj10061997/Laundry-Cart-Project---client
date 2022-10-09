@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import "./Register.css";
 import {useNavigate} from "react-router-dom";
 import {toast} from "react-toastify";
@@ -8,9 +8,7 @@ import {userRegister,handleAuthPage} from "./redux/features/userSlice";
 function Register() {
 
     const dispatch = useDispatch();
-    const navigate = useNavigate()
-    ;
-    dispatch(handleAuthPage(true))
+    const navigate = useNavigate();
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -21,6 +19,10 @@ function Register() {
     const [address, setAddress] = useState("");
     const [pincode, setPincode] = useState("");
 
+    useEffect(()=>{
+        dispatch(handleAuthPage(true));
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[])
     const handleSubmit = (e) =>{
       console.log("sdf")
       e.preventDefault();
@@ -179,7 +181,7 @@ const TogglePassword = ({ password, setPassword }) => {
                     onChange={(event) => setPassword(event.target.value)}
                 />
                 <span className="padlock-img2" onClick={ToggleHandler}>
-                    {toggle === false ? <i class="fa-solid fa-lock"></i> : <i class="fa-solid fa-lock-open"></i>}
+                    {toggle === false ? <i className="fa-solid fa-lock"></i> : <i className="fa-solid fa-lock-open"></i>}
                 </span>
             </div>
         </>

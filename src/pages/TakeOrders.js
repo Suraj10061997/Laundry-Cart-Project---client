@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import { shop } from '../components/shop';
 import "./TakeOrders.css";
 import Popup from '../components/Popup';
@@ -13,10 +13,14 @@ const TakeOrders = () => {
     const dispatch = useDispatch();
     const { isToggle } = useSelector(state => ({ ...state.auth }));
     const { openPopupMsg } = useSelector(state => ({ ...state.order }));
-    dispatch(handleAuthPage(false))
-    dispatch(toggleConfirmBtn(true));
+
     const [order, setOrder] = useState(shop);
 
+    useEffect(()=>{
+        dispatch(handleAuthPage(false))
+        dispatch(toggleConfirmBtn(true));
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[])
     const handleConfirmCard = () => {
         let flag=1;
         for(let i=0;i<order.length;i++){
@@ -92,9 +96,9 @@ const TakeOrders = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            {shop.map((item) => {
+                            {shop.map((item,index) => {
                                 return (
-                                    <tr>
+                                    <tr key={index}>
                                         <td>
                                             <div className="product-type-container">
                                                 <div><h4 style={{paddingLeft:"0.6rem"}}>{item.type}</h4></div>

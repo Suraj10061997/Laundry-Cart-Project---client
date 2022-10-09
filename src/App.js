@@ -27,7 +27,7 @@ function App() {
     <Router>
       <ToastContainer/>
       <NavBar/>
-      <div className="App">
+      <div>
         <Routes>
           <Route path="/" exact element={<Login/>} />
           <Route path="/register" exact element={<Register/>} />

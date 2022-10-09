@@ -95,7 +95,7 @@ const Popup = ({ order }) => {
                                     <option className="store-default-value" disabled selected value="">Store's Location</option>
                                     {storesLocation.map((store, index) => {
                                         return (
-                                            <option value={`${index}`}>{store.name}</option>
+                                            <option key={index} value={`${index}`}>{store.name}</option>
                                         )
                                     })}
                                 </select>
