@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// https://laundrycartnew.herokuapp.com/
-const API = axios.create({baseURL:"https://laundrycartnew.herokuapp.com"});
+//  https://laundrycartnew.herokuapp.com/
+const API = axios.create({baseURL:"https://localhost:5000"});
 
 
 export const userRegister = (formValue) => API.post("/api/users/userRegister",formValue);
